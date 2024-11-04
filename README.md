@@ -2,9 +2,10 @@
 AI-assisted meal prep application
 
 # Disclaimer
-Following all meal plans won't produce results over night or without the proper lifestyle adjustments
+Following all meal plans won't produce results over night or without the proper lifestyle adjustments.
 
 # Overview
-The purpose of this code is users an easier way to plan their meal prep by showing them the nutrional value of the foods they want to eat as well the calories the food has so they can track and manage their goals.
+The purpose of this application is to provide users an easier way to plan their meals by showing them the nutrional value of the foods they want to eat as well the calories the food has so they can track and manage their goals.
 
 # How does it work
+Users will fill out an initial survey within the application asking questions about their dietary habits and goals. They will be prompted to enter foods they like and foods they dislike which will be stored with their profile. 
