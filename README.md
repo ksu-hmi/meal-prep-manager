@@ -9,3 +9,13 @@ The purpose of this application is to provide users an easier way to plan their 
 
 # How does it work
 Users will fill out an initial survey within the application asking questions about their dietary habits and goals. They will be prompted to enter foods they like and foods they dislike which will be stored with their profile. 
+
+# Personalization Options 
+Users can tailor the tool to fit their dietary preferences, such as vegetarian, vegan, gluten-free, or low-carb, and any preferences for specific cuisines or ingredients.
+
+# Nutritional Information 
+The tool will provide nutritional data for each meal or recipe, which will help users track calories, macros, or other health metrics.
+
+# Shopping List Generator 
+The tool can create shopping lists based on the chosen recipes, potentially categorized by store section to make grocery shopping easier.
+
