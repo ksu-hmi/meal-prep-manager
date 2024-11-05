@@ -14,7 +14,7 @@ Week 3:
 - [ ] Begin building out the meal-planning module.
 - [ ] Implement the shopping list generator based on selected meal plans
 
-week 4:
+Week 4:
 - [ ] Create mockup or demo.
 - [ ] add nutritional info for each meal.
 - [ ] Enhance the shopping list feature with category grouping for grocery items.
