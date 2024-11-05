@@ -20,4 +20,7 @@ Week 4:
 - [ ] Enhance the shopping list feature with category grouping for grocery items.
 - [ ] add portion control and recipe scaling.
 
-
+Week 5
+- [ ] Polish the interface for a more intuitive experience, based on user feedback.
+- [ ] Make the meal-planning and recipe scaling processes easier to navigate.
+- [ ] Ensure that nutritional info and portion control features are clearly displayed.
