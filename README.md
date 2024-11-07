@@ -19,6 +19,9 @@ The tool will provide nutritional data for each meal or recipe, which will help 
 # Shopping List Generator 
 The tool can create shopping lists based on the chosen recipes, potentially categorized by store section to make grocery shopping easier.
 
+#Foods
+The 'foods.xlsx' file holds a template of food choices with nutritonal facts and prices that can be updated to fit the market today.
+
 # Recipe Database and Sources
 Describe where the recipes come from (e.g., a built-in database, external APIs, or user uploads) and how users can search or filter for specific types.
 
