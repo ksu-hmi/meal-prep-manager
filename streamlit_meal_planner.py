@@ -51,6 +51,23 @@ else:
     weight = weight_lb * UNITS_LB_TO_KG
     height = (height_ft * 12 + height_in) * UNITS_IN_TO_CM
 
+response = input("Are you trying to lose weight? (yes/no): ").strip().lower()
+
+# Check response and ask for weight loss goal if the answer is "yes"
+if response == "yes":
+    try:
+        # Prompt for the desired weight loss goal
+        weight_loss_goal = float(input("What is your desired weight loss goal in pounds? "))
+        print(f"Your goal is to lose {weight_loss_goal} pounds.")
+        
+        # Proceed to the next step in your program here
+        # next_step_function()
+
+    except ValueError:
+        print("Please enter a valid number for the weight loss goal.")
+else:
+    print("Proceeding to the next step.")
+
 gender = st.radio("Choose your gender:", ["Male", "Female"])
 example_response = f"This is just an example but use your creativity: You can start with, Hello {name}! I'm thrilled to be your meal planner for the day, and I've crafted a delightful and flavorful meal plan just for you. But fear not, this isn't your ordinary, run-of-the-mill meal plan. It's a culinary adventure designed to keep your taste buds excited while considering the calories you can intake. So, get ready!"
 
