@@ -59,13 +59,11 @@ if response == "yes":
         # Prompt for the desired weight loss goal
         weight_loss_goal = float(input("What is your desired weight loss goal in pounds? "))
         print(f"Your goal is to lose {weight_loss_goal} pounds.")
-        
-        # Proceed to the next step in your program here
-        # next_step_function()
-
     except ValueError:
         print("Please enter a valid number for the weight loss goal.")
-else:
+
+# Process if the user is not trying to lose weight
+elif response == "no":
     print("Proceeding to the next step.")
 
 gender = st.radio("Choose your gender:", ["Male", "Female"])
