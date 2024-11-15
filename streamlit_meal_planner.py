@@ -78,6 +78,8 @@ def calculate_bmr(weight, height, age, gender):
 
     return bmr
 
+def calculate_bmi(weight, height):
+    bmi = weight * height 
 
 def get_user_preferences():
     preferences = st.multiselect("Choose your food preferences:", list(food_items_breakfast.keys()))
