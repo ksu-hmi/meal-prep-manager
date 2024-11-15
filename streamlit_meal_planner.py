@@ -57,7 +57,7 @@ response = input("Are you trying to lose weight? (yes/no): ").strip().lower()
 if response == "yes":
     try:
         # Prompt for the desired weight loss goal
-        weight_loss_goal = float(input("What is your desired weight loss goal in pounds? "))
+        weight_loss_goal = float(input("What is your desired weight-loss goal in pounds? "))
         print(f"Your goal is to lose {weight_loss_goal} pounds.")
     except ValueError:
         print("Please enter a valid number for the weight loss goal.")
