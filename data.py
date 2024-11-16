@@ -65,6 +65,7 @@ food_items_lunch = {
         "tofu": 144,
         "lean_beef": 176,
         "shrimp": 99
+        "ribeye steak": 248
     },
     "whole_grains": {
         "brown_rice": 216,
@@ -120,6 +121,7 @@ food_items_dinner = {
         "tofu": 144,
         "shrimp": 84,
         "lentils": 116
+        "ribeye steak": 248
     },
     "grains_and_starches": {
         "brown_rice": 216,
