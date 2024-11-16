@@ -1,4 +1,12 @@
-import streamlit as st
+# Add email input
+email = st.text_input("Enter your email address")
+
+# Optional: Validate email format
+if email:
+    if "@" not in email or "." not in email:
+        st.error("Please enter a valid email address.")
+    else:
+        st.success("Email looks good!")import streamlit as st
 import pandas as pd
 from openai import OpenAI
 import random
@@ -31,6 +39,16 @@ st.divider()
 st.write("Enter your information:")
 name = st.text_input("Enter your name")
 age = st.number_input("Enter your age", step=1)
+
+# Add email input
+email = st.text_input("Enter your email address")
+
+# Optional: Validate email format
+if email:
+    if "@" not in email or "." not in email:
+        st.error("Please enter a valid email address.")
+    else:
+        st.success("Email looks good!")
 
 unit_preference = st.radio("Preferred units:", ["US Standard (lb, in)", "Imperial (kg, cm)"])
 
