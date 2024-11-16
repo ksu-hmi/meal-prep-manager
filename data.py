@@ -21,6 +21,12 @@ food_items_breakfast = {
         "oranges": 62,
         "grapefruit": 52,
         "melon_slices": 30
+         "pineapple": 50,
+        "kiwi": 42,
+        "peach": 39,
+        "mango_slices": 60,
+        "watermelon_slices": 30,
+        "papaya": 59
     },
     "vegetables": {
         "spinach": 7,
