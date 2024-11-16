@@ -66,7 +66,15 @@ if response == "yes":
 elif response == "no":
     print("Proceeding to the next step.")
 
+# Ask for gender
 gender = st.radio("Choose your gender:", ["Male", "Female"])
+
+# Ask for sex at birth
+sex_at_birth = st.radio("What is your sex at birth?", ["Male", "Female"])
+
+# Display selected options
+st.write(f"You selected gender: {gender}")
+st.write(f"Your sex at birth: {sex_at_birth}")
 example_response = f"This is just an example but use your creativity: You can start with, Hello {name}! I'm thrilled to be your meal planner for the day, and I've crafted a delightful and flavorful meal plan just for you. But fear not, this isn't your ordinary, run-of-the-mill meal plan. It's a culinary adventure designed to keep your taste buds excited while considering the calories you can intake. So, get ready!"
 
 
