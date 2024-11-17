@@ -278,7 +278,7 @@ hide_streamlit_style = """
                     # MainMenu {visibility: hidden;}
                     footer {visibility: hidden;}
                     footer:after {
-                    content:'Built by Shravan and Team'; 
+                    content:'Built by Shravan and Team, with updates by KSU HMI Meal Prep Manager Team'; 
                     visibility: visible;
     	            display: block;
     	            position: relative;
