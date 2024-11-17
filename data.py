@@ -1,3 +1,5 @@
+#data  includes items separated by meal and then by category
+
 food_items_breakfast = {
     "protein": {
         "eggs": 78,
@@ -20,7 +22,7 @@ food_items_breakfast = {
         "apples": 52,
         "oranges": 62,
         "grapefruit": 52,
-        "melon_slices": 30
+        "melon_slices": 30,
          "pineapple": 50,
         "kiwi": 42,
         "peach": 39,
@@ -33,7 +35,7 @@ food_items_breakfast = {
         "tomatoes": 18,
         "avocado": 160,
         "bell_peppers": 25,
-        "mushrooms": 15
+        "mushrooms": 15,
         "broccoli": 55,
         "carrots": 41,
         "cucumber": 16,
@@ -46,7 +48,7 @@ food_items_breakfast = {
         "nuts": 163,
         "chia_seeds": 58,
         "flaxseeds": 55,
-        "avocado_slices": 50
+        "avocado_slices": 50,
         "olive_oil": 119,
         "coconut_oil": 117,
         "sunflower_seeds": 165,
@@ -75,7 +77,7 @@ food_items_lunch = {
         "salmon_fillet": 206,
         "tofu": 144,
         "lean_beef": 176,
-        "shrimp": 99
+        "shrimp": 99,
         "ribeye steak": 248
     },
     "whole_grains": {
@@ -131,7 +133,7 @@ food_items_dinner = {
         "beef_steak": 250,
         "tofu": 144,
         "shrimp": 84,
-        "lentils": 116
+        "lentils": 116,
         "ribeye steak": 248
     },
     "grains_and_starches": {
@@ -155,7 +157,7 @@ food_items_dinner = {
         "black_beans": 227,
         "chickpeas": 269,
         "kidney_beans": 333,
-        "lentils": 353
+        "lentils": 353,
         "pinto_beans": 245,
         "edamame": 121,
         "soybeans": 446,
