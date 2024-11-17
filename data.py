@@ -34,6 +34,12 @@ food_items_breakfast = {
         "avocado": 160,
         "bell_peppers": 25,
         "mushrooms": 15
+        "broccoli": 55,
+        "carrots": 41,
+        "cucumber": 16,
+        "kale": 49,
+        "zucchini": 17,
+        "cauliflower": 25
     },
     "healthy_fats": {
         "nut_butter": 94,
