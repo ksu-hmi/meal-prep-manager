@@ -156,6 +156,12 @@ food_items_dinner = {
         "chickpeas": 269,
         "kidney_beans": 333,
         "lentils": 353
+        "pinto_beans": 245,
+        "edamame": 121,
+        "soybeans": 446,
+        "split_peas": 341,
+        "mung_beans": 347,
+        "white_beans": 242
     },
     "healthy_fats": {
         "avocado": 160,
