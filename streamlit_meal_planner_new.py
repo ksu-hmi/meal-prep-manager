@@ -173,6 +173,7 @@ def knapsack(target_calories, food_groups):
 bmr = calculate_bmr(weight, height, age, gender)
 bmi = calculate_bmi(weight,height)
 round_bmr = round(bmr, 2)
+st.subheader(f"Your BMI is: {bmi}")
 st.subheader(f"Your daily intake needs to have: {round_bmr} calories")
 choose_algo = "Knapsack"
 if 'clicked' not in st.session_state:
