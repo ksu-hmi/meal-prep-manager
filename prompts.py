@@ -1,3 +1,5 @@
+#prompts to AI
+
 pre_prompt_b = "I've got a basket full of breakfast items, and I'm looking for a mouthwatering morning meal. Your challenge: create a breakfast dish using most of these ingredients and give it a catchy name. Remember, breakfast sets the tone for the day! Here's the list of items for your culinary adventure:"
 
 pre_breakfast = "For breakfast, we have a delightful dish called 'Morning Glory Omelette.' Imagine a fluffy omelette packed with earthy mushrooms, colorful bell peppers, and a sprinkle of cheese. It's a sunrise on a plate, fueling you with energy and flavor. Now, it's your turn to craft a breakfast masterpiece from the list provided."
