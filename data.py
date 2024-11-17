@@ -47,6 +47,11 @@ food_items_breakfast = {
         "chia_seeds": 58,
         "flaxseeds": 55,
         "avocado_slices": 50
+        "olive_oil": 119,
+        "coconut_oil": 117,
+        "sunflower_seeds": 165,
+        "pumpkin_seeds": 151,
+        "dark_chocolate": 170
     },
     "dairy": {
         "milk": 103,
