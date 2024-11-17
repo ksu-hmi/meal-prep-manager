@@ -6,14 +6,16 @@ if email:
     if "@" not in email or "." not in email:
         st.error("Please enter a valid email address.")
     else:
-        st.success("Email looks good!")import streamlit as st
+        st.success("Email looks good!")
+
+import streamlit as st
 import pandas as pd
 from openai import OpenAI
 import random
 import time
 from data import food_items_breakfast, food_items_lunch, food_items_dinner
 from prompts import pre_prompt_b, pre_prompt_l, pre_prompt_d, pre_breakfast, pre_lunch, pre_dinner, end_text, \
-    example_response_l, example_response_d, negative_prompt
+example_response_l, example_response_d, negative_prompt
 
 ANTHROPIC_API_KEY = st.secrets["anthropic_apikey"]
 OPEN_AI_API_KEY = st.secrets["openai_apikey"]
@@ -27,7 +29,7 @@ client = OpenAI(api_key=ANYSCALE_API, base_url=api_base)
 
 st.set_page_config(page_title="AI - Meal Planner", page_icon="🍴")
 
-st.title("AI Meal Planner")
+st.title("Meal Prep Manager")
 st.divider()
 
 st.write(
@@ -106,6 +108,8 @@ def calculate_bmr(weight, height, age, gender):
 def calculate_bmi(weight, height):
     bmi = weight * height 
 
+    return bmi
+
 def get_user_preferences():
     preferences = st.multiselect("Choose your food preferences:", list(food_items_breakfast.keys()))
     return preferences
@@ -167,6 +171,7 @@ def knapsack(target_calories, food_groups):
 
 
 bmr = calculate_bmr(weight, height, age, gender)
+bmi = calculate_bmi(weight,height)
 round_bmr = round(bmr, 2)
 st.subheader(f"Your daily intake needs to have: {round_bmr} calories")
 choose_algo = "Knapsack"
