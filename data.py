@@ -7,6 +7,8 @@ food_items_breakfast = {
         "cottage_cheese": 206,
         "turkey_slices": 104,
         "smoked_salmon": 117
+        "Bacon": 54
+        "Breakfast Sausage": 150
     },
 
     "whole_grains": {
