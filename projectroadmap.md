@@ -8,6 +8,10 @@ Week 1:
 Week 2:
 - [ ] Begin development.
 - [ ] Begin testing.
+- [ ] Gather API key requirements.
+    - [x] openai
+    - [ ] anthropic
+    - [ ]anyscale
       
 Week 3:
 - [ ] Develop a personalized meal suggestions.
