@@ -1,12 +1,12 @@
 #meal-prep-managar ROADMAP:
 
 Week 1:
-- [ ] Investigate code examples and upload to repository.
+- [x] Investigate code examples and upload to repository.
 - [x] Investigate Llama3 API or other API to use.
-- [ ] Upload meal plan model examples to build upon.
+- [x] Upload meal plan model examples to build upon.
 
 Week 2:
-- [ ] Begin development.
+- [x] Begin development.
 - [ ] Begin testing.
 - [ ] Gather API key requirements.
     - [x] openai
