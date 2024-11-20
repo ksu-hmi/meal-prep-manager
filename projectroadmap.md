@@ -26,5 +26,5 @@ Week 4:
 
 Week 5
 - [ ] Polish the interface for a more intuitive experience, based on user feedback.
-- [ ] Make the meal-planning and recipe scaling processes easier to navigate.
-- [ ] Ensure that nutritional info and portion control features are clearly displayed.
+- [x] Make the meal-planning and recipe scaling processes easier to navigate.
+- [x] Ensure that nutritional info and portion control features are clearly displayed.
