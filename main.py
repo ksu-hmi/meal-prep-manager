@@ -6,7 +6,8 @@ food_item_morning = {
         "greek_yogurt": 130,
         "cottage_cheese": 206,
         "turkey_slices": 104,
-        "smoked_salmon": 117
+        "smoked_salmon": 117,
+        "tofu": 94
     },
 
     "whole_grains": {
@@ -14,7 +15,8 @@ food_item_morning = {
         "oatmeal": 150,
         "quinoa": 222,
         "whole_grain_cereal": 120,
-        "granola": 494
+        "granola": 494,
+        "buckwheat_pancakes": 170
     },
     "fruits": {
         "berries": 50,
@@ -22,27 +24,31 @@ food_item_morning = {
         "apples": 52,
         "oranges": 62,
         "grapefruit": 52,
-        "melon_slices": 30
+        "melon_slices": 30,
+        "pineapple": 82
     },
     "vegetables": {
         "spinach": 7,
         "tomatoes": 18,
         "avocado": 160,
         "bell_peppers": 25,
-        "mushrooms": 15
+        "mushrooms": 15,
+        "Kale": 33
     },
     "healthy_fats": {
         "nut_butter": 94,
         "nuts": 163,
         "chia_seeds": 58,
         "flaxseeds": 55,
-        "avocado_slices": 50
+        "avocado_slices": 50,
+        "hemp_seeds": 57
     },
     "dairy": {
         "milk": 103,
         "cheese": 113,
         "yogurt": 150,
-        "dairy-free_alternatives": 80
+        "dairy-free_alternatives": 80,
+        "cream_cheese":99
     },
     "other": {
         "honey": 64,
@@ -50,7 +56,8 @@ food_item_morning = {
         "coffee": 2,
         "jam": 49,
         "peanut_butter": 188,
-        "cocoa_powder": 12
+        "cocoa_powder": 12,
+        "dark_chocolate": 70
     }
 }
 
