@@ -14,14 +14,14 @@ Week 2:
     - [ ]anyscale
       
 Week 3:
-- [ ] Develop a personalized meal suggestions.
+- [x] Develop a personalized meal suggestions.
 - [ ] Begin building out the meal-planning module.
-- [ ] Implement the shopping list generator based on selected meal plans
+- [x] Implement the shopping list generator based on selected meal plans
 
 Week 4:
 - [ ] Create mockup or demo.
 - [ ] add nutritional info for each meal.
-- [ ] Enhance the shopping list feature with category grouping for grocery items.
+- [x] Enhance the shopping list feature with category grouping for grocery items.
 - [ ] add portion control and recipe scaling.
 
 Week 5
