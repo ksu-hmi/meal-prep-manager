@@ -1,4 +1,6 @@
 import streamlit as st
+st.set_page_config(page_title="Meal Prep Manager", page_icon="🍴")
+
 import pandas as pd
 from openai import OpenAI
 import random
