@@ -14,6 +14,8 @@ ANYSCALE_API = st.secrets["anyscale_apikey"]
 
 UNITS_CM_TO_IN = 0.393701
 UNITS_KG_TO_LB = 2.20462
+UNITS_LB_TO_KG = 1 / UNITS_KG_TO_LB
+UNITS_IN_TO_CM = 1 / UNITS_CM_TO_IN
 
 api_base = "https://api.endpoints.anyscale.com/v1"
 client = OpenAI(api_key=ANYSCALE_API, base_url=api_base)
