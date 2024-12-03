@@ -20,7 +20,6 @@ UNITS_IN_TO_CM = 1 / UNITS_CM_TO_IN
 api_base = "https://api.endpoints.anyscale.com/v1"
 client = OpenAI(api_key=ANYSCALE_API, base_url=api_base)
 
-st.set_page_config(page_title="AI - Meal Planner", page_icon="🍴")
 
 st.title("Meal Prep Manager")
 st.divider()
