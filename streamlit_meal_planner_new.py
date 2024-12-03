@@ -1,13 +1,3 @@
-# Add email input
-email = st.text_input("Enter your email address")
-
-# Optional: Validate email format
-if email:
-    if "@" not in email or "." not in email:
-        st.error("Please enter a valid email address.")
-    else:
-        st.success("Email looks good!")
-
 import streamlit as st
 import pandas as pd
 from openai import OpenAI
