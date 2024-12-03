@@ -6,8 +6,7 @@ from openai import OpenAI
 import random
 import time
 from data import food_items_breakfast, food_items_lunch, food_items_dinner
-from prompts import pre_prompt_b, pre_prompt_l, pre_prompt_d, pre_breakfast, pre_lunch, pre_dinner, end_text, \
-example_response_l, example_response_d, negative_prompt
+from prompts import pre_prompt_b, pre_prompt_l, pre_prompt_d, pre_breakfast, pre_lunch, pre_dinner, end_text, example_response_l, example_response_d, negative_prompt
 
 ANTHROPIC_API_KEY = st.secrets["anthropic_apikey"]
 OPEN_AI_API_KEY = st.secrets["openai_apikey"]
