@@ -63,7 +63,8 @@ else:
     weight = weight_lb * UNITS_LB_TO_KG
     height = (height_ft * 12 + height_in) * UNITS_IN_TO_CM
 
-response = input("Are you trying to lose weight? (yes/no): ").strip().lower()
+
+response = st.text_input("Are you trying to lose weight? (yes/no): ")
 
 # Check response and ask for weight loss goal if the answer is "yes"
 if response == "yes":
