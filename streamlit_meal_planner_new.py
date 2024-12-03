@@ -44,12 +44,13 @@ if email:
     else:
         st.success("Email looks good!")
 
-unit_preference = st.radio("Preferred units:", ["US Standard (lb, in)", "Imperial (kg, cm)"])
+unit_preference = st.radio("Preferred units:", ["Metric (kg, cm)", "Imperial (lb, ft + in)"])
 
-if unit_preference == "US standard (lbs, in)":
-    weight = st.number_input("Enter your weight (lbs)")
-    height = st.number_input("Enter your height (in)")
-
+if unit_preference == "Metric (kg, cm)":
+    weight = st.number_input("Enter your weight (kg)")
+    height = st.number_input("Enter your height (cm)")
+else:
+    weight_lb = st.number_input("Enter your weight (lb)")
     
     # Use columns to align feet and inches inputs next to each other
     col1, col2 = st.columns(2)
